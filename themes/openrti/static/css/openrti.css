@@ -1,0 +1,285 @@
+/* OpenRTI India — Custom Theme
+   Saffron (#FF9933) + Navy (#003087) + White (#FFFFFF)
+   Indian Tricolour palette for government/civic trust
+   Noto Sans Devanagari for Hindi readability */
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@400;500;600;700&family=Noto+Sans:wght@400;500;600;700&display=swap');
+
+/* ─── CSS Variables ─── */
+:root {
+  --saffron: #FF9933;
+  --saffron-dark: #e6851a;
+  --saffron-light: #fff3e0;
+  --navy: #003087;
+  --navy-dark: #002060;
+  --navy-light: #e8edf7;
+  --white: #ffffff;
+  --ashoka-green: #138808;
+  --text-primary: #1a1a1a;
+  --text-secondary: #555555;
+  --border: #dee2e6;
+  --font-latin: 'Noto Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-devanagari: 'Noto Sans Devanagari', 'Noto Sans', sans-serif;
+}
+
+/* ─── Base ─── */
+body {
+  font-family: var(--font-latin);
+  color: var(--text-primary);
+}
+
+:lang(hi), .hindi, [lang="hi"] {
+  font-family: var(--font-devanagari);
+  line-height: 1.8;
+}
+
+/* ─── Navbar ─── */
+.navbar {
+  background-color: var(--navy) !important;
+  border-bottom: 3px solid var(--saffron);
+}
+
+.navbar-brand {
+  color: var(--white) !important;
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+
+.navbar-brand span.hindi-name {
+  font-family: var(--font-devanagari);
+  font-size: 1.1rem;
+  opacity: 0.9;
+  margin-left: 6px;
+}
+
+.navbar .nav-link {
+  color: rgba(255,255,255,0.85) !important;
+}
+
+.navbar .nav-link:hover {
+  color: var(--saffron) !important;
+}
+
+/* ─── Header / Hero ─── */
+.page-header, .hero-section {
+  background: linear-gradient(135deg, var(--navy) 0%, var(--navy-dark) 100%);
+  color: var(--white);
+  padding: 3rem 0;
+  border-bottom: 4px solid var(--saffron);
+}
+
+.page-header h1 {
+  font-weight: 700;
+}
+
+/* ─── Buttons ─── */
+.btn-primary {
+  background-color: var(--saffron);
+  border-color: var(--saffron-dark);
+  color: var(--navy) !important;
+  font-weight: 600;
+}
+
+.btn-primary:hover {
+  background-color: var(--saffron-dark);
+  border-color: var(--saffron-dark);
+  color: var(--navy) !important;
+}
+
+.btn-secondary {
+  background-color: var(--navy);
+  border-color: var(--navy-dark);
+  color: var(--white) !important;
+}
+
+.btn-secondary:hover {
+  background-color: var(--navy-dark);
+}
+
+.btn-success {
+  background-color: var(--ashoka-green);
+  border-color: #0f6b06;
+}
+
+/* ─── Cards ─── */
+.card {
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,48,135,0.06);
+  transition: box-shadow 0.2s ease;
+}
+
+.card:hover {
+  box-shadow: 0 4px 16px rgba(0,48,135,0.12);
+}
+
+.card-header {
+  background-color: var(--navy-light);
+  border-bottom: 2px solid var(--saffron);
+  font-weight: 600;
+  color: var(--navy);
+}
+
+/* ─── RTI Status Badges ─── */
+.badge-pending {
+  background-color: #fff3cd;
+  color: #856404;
+  border: 1px solid #ffc107;
+}
+
+.badge-overdue {
+  background-color: #f8d7da;
+  color: #842029;
+  border: 1px solid #dc3545;
+}
+
+.badge-responded {
+  background-color: #d1e7dd;
+  color: #0a3622;
+  border: 1px solid var(--ashoka-green);
+}
+
+.badge-appeal {
+  background-color: var(--navy-light);
+  color: var(--navy);
+  border: 1px solid var(--navy);
+}
+
+/* ─── Deadline Tracker ─── */
+.deadline-tracker {
+  border-left: 4px solid var(--saffron);
+  padding-left: 1rem;
+  margin: 1rem 0;
+}
+
+.deadline-tracker.overdue {
+  border-left-color: #dc3545;
+  background-color: #fff5f5;
+}
+
+.deadline-tracker.urgent {
+  border-left-color: #ffc107;
+  background-color: #fffdf0;
+}
+
+.deadline-days {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--navy);
+}
+
+.deadline-days.overdue {
+  color: #dc3545;
+}
+
+/* ─── Payment Section ─── */
+.payment-card {
+  border: 2px solid var(--saffron);
+  border-radius: 12px;
+  padding: 2rem;
+  text-align: center;
+  background: linear-gradient(145deg, #fff9f0, var(--white));
+}
+
+.payment-amount {
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--navy);
+}
+
+.bpl-exempt-badge {
+  background-color: var(--ashoka-green);
+  color: var(--white);
+  padding: 0.5rem 1.5rem;
+  border-radius: 50px;
+  font-weight: 600;
+}
+
+/* ─── Authority Search ─── */
+.authority-card {
+  border-left: 4px solid var(--navy);
+  padding: 1rem 1.5rem;
+  margin-bottom: 1rem;
+  background: var(--white);
+  border-radius: 0 8px 8px 0;
+}
+
+.authority-card .authority-type {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--text-secondary);
+}
+
+.authority-card .authority-name-hi {
+  font-family: var(--font-devanagari);
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+}
+
+/* ─── Language Toggle ─── */
+.lang-toggle {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.lang-toggle .btn {
+  padding: 0.2rem 0.8rem;
+  font-size: 0.85rem;
+}
+
+.lang-toggle .btn.active {
+  background-color: var(--saffron);
+  border-color: var(--saffron-dark);
+  color: var(--navy);
+}
+
+/* ─── Footer ─── */
+footer {
+  background-color: var(--navy);
+  color: rgba(255,255,255,0.8);
+  padding: 2rem 0;
+  margin-top: 3rem;
+  border-top: 3px solid var(--saffron);
+}
+
+footer a {
+  color: var(--saffron);
+}
+
+footer a:hover {
+  color: #ffb84d;
+}
+
+.footer-hindi {
+  font-family: var(--font-devanagari);
+  font-size: 0.9rem;
+}
+
+/* ─── Tricolour accent line ─── */
+.tricolour-bar {
+  height: 4px;
+  background: linear-gradient(
+    to right,
+    var(--saffron) 33.33%,
+    var(--white) 33.33%,
+    var(--white) 66.66%,
+    var(--ashoka-green) 66.66%
+  );
+}
+
+/* ─── Responsive ─── */
+@media (max-width: 768px) {
+  .navbar-brand span.hindi-name {
+    display: none;
+  }
+
+  .payment-amount {
+    font-size: 2rem;
+  }
+
+  .deadline-days {
+    font-size: 1.5rem;
+  }
+}

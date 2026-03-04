@@ -1,0 +1,405 @@
+# Hindi translations for OpenRTI India
+# RTI Act 2005 official terminology in Devanagari script
+# Copyright (C) 2024 OpenRTI India
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenRTI India 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-01-01 00:00+0530\n"
+"PO-Revision-Date: 2024-01-01 00:00+0530\n"
+"Last-Translator: OpenRTI India Team\n"
+"Language-Team: Hindi\n"
+"Language: hi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+# === Core RTI Act terminology ===
+msgid "Right to Information"
+msgstr "सूचना का अधिकार"
+
+msgid "RTI Request"
+msgstr "आरटीआई आवेदन"
+
+msgid "RTI Act 2005"
+msgstr "सूचना का अधिकार अधिनियम, 2005"
+
+msgid "Public Information Officer"
+msgstr "जन सूचना अधिकारी"
+
+msgid "Public Information Officer (PIO)"
+msgstr "जन सूचना अधिकारी (जेएसए)"
+
+msgid "First Appellate Authority"
+msgstr "प्रथम अपीलीय प्राधिकारी"
+
+msgid "Central Information Commission"
+msgstr "केंद्रीय सूचना आयोग"
+
+msgid "State Information Commission"
+msgstr "राज्य सूचना आयोग"
+
+msgid "Public Authority"
+msgstr "लोक प्राधिकरण"
+
+msgid "Indian Public Authority"
+msgstr "भारतीय लोक प्राधिकरण"
+
+msgid "Indian Public Authorities"
+msgstr "भारतीय लोक प्राधिकरण"
+
+# === Application & Filing ===
+msgid "File RTI Request"
+msgstr "आरटीआई आवेदन दर्ज करें"
+
+msgid "Submit Application"
+msgstr "आवेदन जमा करें"
+
+msgid "Application Number"
+msgstr "आवेदन संख्या"
+
+msgid "Application Date"
+msgstr "आवेदन तिथि"
+
+msgid "Applicant"
+msgstr "आवेदक"
+
+msgid "Subject of Information"
+msgstr "सूचना का विषय"
+
+msgid "Details of Information Sought"
+msgstr "मांगी गई सूचना का विवरण"
+
+msgid "Time Period of Information"
+msgstr "सूचना की समय अवधि"
+
+# === Payment ===
+msgid "RTI Payment"
+msgstr "आरटीआई शुल्क भुगतान"
+
+msgid "RTI Payments"
+msgstr "आरटीआई शुल्क भुगतान"
+
+msgid "Application Fee"
+msgstr "आवेदन शुल्क"
+
+msgid "Amount (₹)"
+msgstr "राशि (₹)"
+
+msgid "Payment Method"
+msgstr "भुगतान का तरीका"
+
+msgid "Razorpay (Online)"
+msgstr "रेज़रपे (ऑनलाइन)"
+
+msgid "Demand Draft"
+msgstr "बैंक ड्राफ्ट"
+
+msgid "Indian Postal Order"
+msgstr "भारतीय डाक आदेश"
+
+msgid "Cash"
+msgstr "नकद"
+
+msgid "BPL Exemption"
+msgstr "बीपीएल छूट"
+
+msgid "Pending"
+msgstr "लंबित"
+
+msgid "Completed"
+msgstr "पूर्ण"
+
+msgid "Failed"
+msgstr "असफल"
+
+msgid "Refunded"
+msgstr "वापस किया गया"
+
+msgid "Exempt (BPL)"
+msgstr "छूट प्राप्त (बीपीएल)"
+
+msgid "Razorpay Order ID"
+msgstr "रेज़रपे ऑर्डर आईडी"
+
+msgid "Razorpay Payment ID"
+msgstr "रेज़रपे भुगतान आईडी"
+
+msgid "Razorpay Signature"
+msgstr "रेज़रपे हस्ताक्षर"
+
+msgid "BPL Certificate Number"
+msgstr "बीपीएल प्रमाण पत्र संख्या"
+
+msgid "BPL Certificate"
+msgstr "बीपीएल प्रमाण पत्र"
+
+# === Deadlines ===
+msgid "RTI Deadline"
+msgstr "आरटीआई समय-सीमा"
+
+msgid "RTI Deadlines"
+msgstr "आरटीआई समय-सीमाएँ"
+
+msgid "Deadline Type"
+msgstr "समय-सीमा का प्रकार"
+
+msgid "Initial Response (30 days)"
+msgstr "प्रारंभिक उत्तर (30 दिन)"
+
+msgid "Urgent Response — Life/Liberty (48 hours)"
+msgstr "तत्काल उत्तर — जीवन/स्वतंत्रता (48 घंटे)"
+
+msgid "First Appeal (30 days)"
+msgstr "प्रथम अपील (30 दिन)"
+
+msgid "Second Appeal to IC (90 days)"
+msgstr "सूचना आयोग में द्वितीय अपील (90 दिन)"
+
+msgid "Start Date"
+msgstr "प्रारंभ तिथि"
+
+msgid "Due Date"
+msgstr "नियत तिथि"
+
+msgid "Status"
+msgstr "स्थिति"
+
+msgid "Responded"
+msgstr "उत्तर दिया गया"
+
+msgid "Overdue"
+msgstr "अतिदेय"
+
+msgid "Extended"
+msgstr "विस्तारित"
+
+msgid "Transferred to Another PIO"
+msgstr "अन्य जेएसए को स्थानांतरित"
+
+msgid "Responded On"
+msgstr "उत्तर दिया गया"
+
+msgid "7-Day Reminder Sent"
+msgstr "7-दिन का अनुस्मारक भेजा गया"
+
+msgid "1-Day Reminder Sent"
+msgstr "1-दिन का अनुस्मारक भेजा गया"
+
+msgid "Overdue Notice Sent"
+msgstr "अतिदेय सूचना भेजी गई"
+
+msgid "Notes"
+msgstr "टिप्पणियाँ"
+
+# === Appeals ===
+msgid "RTI Appeal"
+msgstr "आरटीआई अपील"
+
+msgid "RTI Appeals"
+msgstr "आरटीआई अपीलें"
+
+msgid "Appeal Type"
+msgstr "अपील का प्रकार"
+
+msgid "First Appeal — Section 19(1)"
+msgstr "प्रथम अपील — धारा 19(1)"
+
+msgid "Second Appeal — Section 19(3)"
+msgstr "द्वितीय अपील — धारा 19(3)"
+
+msgid "Ground of Appeal"
+msgstr "अपील का आधार"
+
+msgid "No Response within 30 days"
+msgstr "30 दिनों में कोई उत्तर नहीं"
+
+msgid "Incomplete Information Provided"
+msgstr "अधूरी जानकारी प्रदान की गई"
+
+msgid "Incorrect Information Provided"
+msgstr "गलत जानकारी प्रदान की गई"
+
+msgid "Excessive Fee Charged"
+msgstr "अत्यधिक शुल्क लिया गया"
+
+msgid "Information Wrongfully Denied"
+msgstr "सूचना गलत तरीके से अस्वीकार की गई"
+
+msgid "Third Party Information Withheld"
+msgstr "तृतीय पक्ष की सूचना रोकी गई"
+
+msgid "Other Grounds"
+msgstr "अन्य आधार"
+
+msgid "Draft"
+msgstr "मसौदा"
+
+msgid "Filed"
+msgstr "दाखिल"
+
+msgid "Under Review"
+msgstr "समीक्षाधीन"
+
+msgid "Hearing Scheduled"
+msgstr "सुनवाई निर्धारित"
+
+msgid "Allowed"
+msgstr "स्वीकृत"
+
+msgid "Partially Allowed"
+msgstr "आंशिक रूप से स्वीकृत"
+
+msgid "Dismissed"
+msgstr "खारिज"
+
+msgid "Withdrawn"
+msgstr "वापस लिया गया"
+
+msgid "Filed Date"
+msgstr "दाखिल तिथि"
+
+msgid "Hearing Date"
+msgstr "सुनवाई तिथि"
+
+msgid "Decision Date"
+msgstr "निर्णय तिथि"
+
+msgid "Appellate Authority"
+msgstr "अपीलीय प्राधिकारी"
+
+msgid "Registration Number"
+msgstr "पंजीकरण संख्या"
+
+msgid "Appeal Text"
+msgstr "अपील का पाठ"
+
+msgid "Decision Summary"
+msgstr "निर्णय का सारांश"
+
+msgid "Penalty Imposed on PIO"
+msgstr "जेएसए पर जुर्माना लगाया गया"
+
+msgid "Penalty Amount (₹)"
+msgstr "जुर्माने की राशि (₹)"
+
+# === Public Authority ===
+msgid "Authority Type"
+msgstr "प्राधिकरण का प्रकार"
+
+msgid "Central Government Ministry"
+msgstr "केंद्र सरकार मंत्रालय"
+
+msgid "Central Government Department"
+msgstr "केंद्र सरकार विभाग"
+
+msgid "Central Public Sector Undertaking"
+msgstr "केंद्रीय सार्वजनिक क्षेत्र उपक्रम"
+
+msgid "State Government"
+msgstr "राज्य सरकार"
+
+msgid "State Government Department"
+msgstr "राज्य सरकार विभाग"
+
+msgid "State Public Sector Undertaking"
+msgstr "राज्य सार्वजनिक क्षेत्र उपक्रम"
+
+msgid "Local Body / Municipal Corporation"
+msgstr "स्थानीय निकाय / नगर निगम"
+
+msgid "Constitutional Body"
+msgstr "संवैधानिक निकाय"
+
+msgid "Statutory Body"
+msgstr "वैधानिक निकाय"
+
+msgid "Substantially Aided Body"
+msgstr "पर्याप्त सहायता प्राप्त निकाय"
+
+msgid "State / UT"
+msgstr "राज्य / केंद्र शासित प्रदेश"
+
+msgid "PIO Email"
+msgstr "जेएसए ईमेल"
+
+msgid "PIO Phone"
+msgstr "जेएसए फोन"
+
+msgid "PIO Address"
+msgstr "जेएसए पता"
+
+msgid "Appellate Authority Email"
+msgstr "अपीलीय प्राधिकारी ईमेल"
+
+msgid "Information Commission (Second Appeal)"
+msgstr "सूचना आयोग (द्वितीय अपील)"
+
+msgid "RTI Online Portal URL"
+msgstr "आरटीआई ऑनलाइन पोर्टल यूआरएल"
+
+msgid "Accepts Online RTI"
+msgstr "ऑनलाइन आरटीआई स्वीकार करता है"
+
+msgid "Accepts RTI via Email"
+msgstr "ईमेल द्वारा आरटीआई स्वीकार करता है"
+
+msgid "Name (Hindi)"
+msgstr "नाम (हिंदी)"
+
+msgid "Last Verified"
+msgstr "अंतिम सत्यापन"
+
+msgid "Active"
+msgstr "सक्रिय"
+
+# === UI Elements ===
+msgid "Search public authorities"
+msgstr "लोक प्राधिकरण खोजें"
+
+msgid "Make an RTI Request"
+msgstr "आरटीआई आवेदन करें"
+
+msgid "Track your RTI Request"
+msgstr "अपना आरटीआई आवेदन ट्रैक करें"
+
+msgid "File an Appeal"
+msgstr "अपील दर्ज करें"
+
+msgid "View Response"
+msgstr "उत्तर देखें"
+
+msgid "Download Response"
+msgstr "उत्तर डाउनलोड करें"
+
+msgid "Pay Application Fee"
+msgstr "आवेदन शुल्क जमा करें"
+
+msgid "Apply for BPL Exemption"
+msgstr "बीपीएल छूट के लिए आवेदन करें"
+
+msgid "Days remaining"
+msgstr "शेष दिन"
+
+msgid "Request overdue"
+msgstr "आवेदन की समय-सीमा समाप्त"
+
+msgid "View all requests"
+msgstr "सभी आवेदन देखें"
+
+msgid "Browse authorities"
+msgstr "प्राधिकरण देखें"
+
+msgid "About RTI Act"
+msgstr "सूचना का अधिकार अधिनियम के बारे में"
+
+msgid "Help"
+msgstr "सहायता"
+
+msgid "OpenRTI India"
+msgstr "ओपनआरटीआई इंडिया"
+
+msgid "India's open Right to Information platform"
+msgstr "भारत का मुक्त सूचना का अधिकार मंच"
