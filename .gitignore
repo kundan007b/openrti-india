@@ -27,3 +27,12 @@ froide/static/js
 froide/static/css
 froide/static/fonts
 .vscode/settings.json
+# === OpenRTI India additions ===
+.env
+.env.local
+local_settings_secret.py
+media/bpl_certificates/
+razorpay_*.log
+*.mo
+.vscode/
+.idea/
